@@ -149,7 +149,16 @@ margin:0;
 
 .item{
     border-radius: 5px;
-    padding-bottom: 22px;
+
 
 
 }
+
+.item-complex .item-content, .item-radio .item-content{
+
+    padding: 16px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+
