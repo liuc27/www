@@ -1,164 +1,286 @@
+.bar.bar-positive .title{
+  font-size: 22px;
+  font-weight: bolder;
+}
+
 body {
-    background-color: pink;
-    overflow: scroll;
+  background-color: #FAEDF0;
+  overflow: scroll;
 }
 
 .bordLine {
-    border-style: solid;
-    border-color: pink;
-    padding: 5px 0px;
+
+  border-style: solid;
+
+  border-color: #FAEDF0;
+
+  padding: 5px 0px;
+
 }
 
 .item {
-    padding-top: 0;
-    padding-right: 0;
-    top: 0;
+
+  padding-top: 0;
+
+  padding-right: 0;
+
+  top: 0;
 
 }
 
-.item-thumbnail-left > img:first-child, .item-thumbnail-left .item-image, .item-thumbnail-left .item-content > img:first-child, .item-thumbnail-left .item-content .item-image {
-    top: 0;
-    padding-top: 0;
-    padding-right: 0;
-}
+.item-thumbnail-left > img:first-child,
 
+.item-thumbnail-left .item-image,
+
+.item-thumbnail-left .item-content > img:first-child,
+
+.item-thumbnail-left .item-content .item-image {
+
+  top: 0;
+
+  padding-top: 0;
+
+  padding-right: 0;
+
+}
 
 .bordLineLast {
-    border-bottom-width: 1px;
+
+  border-bottom-width: 1px;
+
 }
 
 .productName {
-    padding-top: 12px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #FF69B4;
+
+  padding-top: 12px;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  color: #FF69B4;
+
 }
 
 .category {
-    float: right;
-    font-size: 16px;
-    margin: 3px;
-    top: 0;
-    right: 0;
-    color: #FF69B4;
-    font-weight: bold;
+
+  float: right;
+
+  font-size: 16px;
+
+  margin: 3px;
+
+  top: 0;
+
+  right: 0;
+
+  color: #FF69B4;
+
+  font-weight: bold;
+
 }
 
 .productIntroduction {
-    line-height: 1.5em;
-    height: 3em;
-    overflow: hidden;
-    padding: 0 20px 0 0;
-    font-size: 15px;
-    white-space: normal;
-    color: #FF69B4;
-    font-weight: bold;
+
+  line-height: 1.5em;
+
+  height: 3em;
+
+  overflow: hidden;
+
+  padding: 0 20px 0 0;
+
+  font-size: 15px;
+
+  white-space: normal;
+
+  color: #FF69B4;
+
+  font-weight: bold;
 
 }
 
 .productDate {
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: #FF69B4;
+
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  color: #FF69B4;
+
 }
 
 .list {
-    margin-bottom: 0;
+
+  margin-bottom: 0;
 
 }
 
 .product_image {
-    margin-top: 12px;
+
+  margin-top: 12px;
+
 }
 
 ion-content {
-    background-color: pink;
+
+  background-color: #FAEDF0;
+
 }
 
-
-
 .buttons.left-buttons {
-    width: 40px;
-    height: 34px;
-    display: block;
+
+  width: 40px;
+
+  height: 34px;
+
+  display: block;
+
 }
 
 .borderRadius5 {
-    border-radius: 5px 5px 5px 5px;
+
+  border-radius: 5px 5px 5px 5px;
+
 }
 
 .borderRadius {
-    border-radius: 5px 5px 5px 5px;
+
+  border-radius: 5px 5px 5px 5px;
+
 }
 
 .highIndex {
-    z-index: 100000;
-    width: 100px;
-    height: 100px;
-    top: 0;
-    left: 0;
-    position: fixed;
+
+  z-index: 100000;
+
+  width: 100px;
+
+  height: 100px;
+
+  top: 0;
+
+  left: 0;
+
+  position: fixed;
 
 }
 
-.bar-stable .button, .bar.bar-stable .title {
-    color: #fff;
-    font-weight: bold;
+.bar-stable .button,
+
+.bar.bar-stable .title {
+
+  color: #fff;
+
+  font-weight: bold;
+
 }
 
 .pink {
-    background-color: pink;
+
+  background-color: #FAEDF0;
+
 }
 
 .list.card.pink {
 
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+
+  margin-bottom: 0;
+
 }
 
 div.item.item-avatar {
-    padding-left: 20px;
-    padding-top: 20px;
+
+  padding-left: 20px;
+
+  padding-top: 20px;
+
 }
 
 div.item.item-body {
 
-    padding: 1px;
+  padding: 1px;
+
 }
+
 div.scroll.padding {
-    background-color: pink;
+
+  background-color: #FAEDF0;
+
 }
 
-.item-body h1, .item-body h2, .item-body h3, .item-body h4, .item-body h5, .item-body h6, .item-body p{
-    padding: 3px 3px;
-margin:0;
+.item-body h1,
+
+.item-body h2,
+
+.item-body h3,
+
+.item-body h4,
+
+.item-body h5,
+
+.item-body h6,
+
+.item-body p {
+
+  padding: 3px 3px;
+
+  margin: 0;
+
 }
+
 .addToCart {
-    width: 130px;
-    position: absolute;
-    top: 20px;
-    right: 0px;
-}
 
-.card .item:first-child, .list-inset .item:first-child, .padding > .list .item:first-child {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+  width: 130px;
 
-}
+  position: absolute;
 
-.item{
-    border-radius: 5px;
+  top: 20px;
 
-
+  right: 0px;
 
 }
 
-.item-complex .item-content, .item-radio .item-content{
+.card .item:first-child,
 
-    padding: 16px 0;
-    font-size: 16px;
-    text-align: center;
+.list-inset .item:first-child,
+
+.padding > .list .item:first-child {
+
+  border-top-left-radius: 5px;
+
+  border-top-right-radius: 5px;
+
 }
 
+.item {
 
+  border-radius: 5px;
+
+}
+
+.item-complex .item-content,
+
+.item-radio .item-content {
+
+  padding: 16px 0;
+
+  font-size: 22px;
+
+  text-align: center;
+  
+  font-weight: 100;
+}
+
+.tabs-positive > .tabs,
+
+.tabs.tabs-positive,
+
+.bar.bar-positive {
+
+  background-color: #6DA6FC;
+
+}
