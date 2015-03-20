@@ -5,8 +5,8 @@
     <div class="list card pink">
 
       <div class="item item-avatar">
-        <h2>{{favoriteCoupon.productName}}</h2>
-        <p>{{favoriteCoupon.timeLimit|date:'至yyyy年MM月dd日'}}</p>
+        <h2 lang="zh-cn">{{favoriteCoupon.productName}}</h2>
+        <p lang="zh-cn">{{favoriteCoupon.timeLimit|date:'至yyyy年MM月dd日'}}</p>
         <div class="addToCart">
           <button ng-class="favorites" ng-init="changeClass()">{{favoritesText}}</button>
         </div>
